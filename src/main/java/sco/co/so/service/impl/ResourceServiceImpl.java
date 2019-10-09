@@ -17,7 +17,7 @@ public class ResourceServiceImpl implements ResourceService {
 
     private static Set<Bean> beans = new HashSet<>();
 
-    static Long beanId = 6L;
+    private static Long beanId = 6L;
 
     static {
         beans.add(new Bean(1L, "Name 1"));
